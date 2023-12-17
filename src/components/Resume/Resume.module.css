@@ -1,0 +1,179 @@
+
+
+
+/* Styles for the container */
+.container {
+    --color: #239ce2;
+    min-width: 100%; /* Adjusted for responsiveness */
+    max-width: 100%; /* Adjusted for responsiveness */
+    margin: 0 auto;
+    flex: 1;
+    height: fit-content;
+    min-height: 100vh; /* Adjusted for responsiveness */
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw; /* Adjusted for responsiveness */
+    padding: 2.5vw; /* Adjusted for responsiveness */
+  }
+  
+  /* Styles for the header */
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styles for heading in the header */
+  .header .heading {
+    font-size: 2.7rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  /* Styles for subheading in the header */
+  .header .subHeading {
+    color: var(--color);
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  
+  /* Styles for links in the header */
+  .header .links {
+    margin-top: 1.5vw; /* Adjusted for responsiveness */
+    display: flex;
+    gap: 2.5vw; /* Adjusted for responsiveness */
+    flex-wrap: wrap;
+    row-gap: 1vw; /* Adjusted for responsiveness */
+  }
+  
+  /* Styles for individual link in the header */
+  .header .link {
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw; /* Adjusted for responsiveness */
+    cursor: pointer;
+  }
+  
+  /* Styles for link icon in the header */
+  .header .link svg {
+    color: var(--color);
+    height: 1.6vw; /* Adjusted for responsiveness */
+    width: 1.6vw; /* Adjusted for responsiveness */
+  }
+  
+  /* Styles for main content */
+  .main {
+    display: flex;
+    flex-direction: column; /* Adjusted for responsiveness */
+    gap: 2.5vw; /* Adjusted for responsiveness */
+  }
+  
+  /* Styles for column 1 in main content */
+  .col1 {
+    flex: 1; /* Adjusted for responsiveness */
+    gap: 2.5vw; /* Adjusted for responsiveness */
+  }
+  
+  /* Styles for column 2 in main content */
+  .col2 {
+    flex: 1; /* Adjusted for responsiveness */
+    gap: 2.5vw; /* Adjusted for responsiveness */
+  }
+  
+  /* Styles for section title */
+  .section .sectionTitle {
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 2px solid #000;
+  }
+  
+  /* Styles for section content */
+  .section .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem; /* Adjusted for responsiveness */
+    padding: 0.625rem 0;
+  }
+  
+  /* Styles for individual item in section content */
+  .section .content .item {
+    border-bottom: 1px dotted lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* Adjusted for responsiveness */
+    padding-bottom: 0.625rem; /* Adjusted for responsiveness */
+  }
+  
+  /* Styles for last item in section content */
+  .section .content .item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Styles for content title */
+  .content .title {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  
+  /* Styles for content subtitle */
+  .content .subTitle {
+    font-weight: bold;
+    color: var(--color);
+    font-size: 1rem;
+  }
+  
+  /* Styles for content overview */
+  .content .overview {
+    font-size: 0.875rem;
+  }
+  
+  /* Styles for content link */
+  .content .link {
+    display: flex;
+    gap: 0.5vw; /* Adjusted for responsiveness */
+    font-size: 0.75rem;
+    cursor: pointer;
+    color: var(--color);
+  }
+  
+  /* Styles for content link icon */
+  .content .link svg {
+    height: 1.4vw; /* Adjusted for responsiveness */
+    width: 1.4vw; /* Adjusted for responsiveness */
+    color: var(--color);
+  }
+  
+  /* Styles for content date */
+  .content .date {
+    display: flex;
+    gap: 0.5vw; /* Adjusted for responsiveness */
+    align-items: center;
+    font-size: 0.875rem;
+  }
+  
+  /* Styles for content date icon */
+  .content .date svg {
+    height: 1.4vw; /* Adjusted for responsiveness */
+    width: 1.4vw; /* Adjusted for responsiveness */
+  }
+  
+  /* Styles for content points and numbered */
+  .content .points,
+  .numbered {
+    padding-left: 1.8vw; /* Adjusted for responsiveness */
+    font-size: 0.875rem;
+  }
+  
+  /* Styles for numbered list */
+  .numbered li {
+    list-style-type: decimal;
+  }
+  
+  /* Styles for hidden class */
+  .hidden {
+    display: none;
+  }
+  

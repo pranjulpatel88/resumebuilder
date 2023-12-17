@@ -1,0 +1,39 @@
+
+
+
+/* Styles for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* Adjusted for responsiveness */
+    overflow-x: auto; /* Enable horizontal scrolling for small screens */
+  }
+  
+  /* Styles for labels */
+  label {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  /* Styles for input fields */
+  input {
+    width: 100%; /* Ensure inputs take up full width */
+    box-sizing: border-box; /* Include padding and border in the width */
+    border: 1px solid #cccccc;
+    outline: none;
+    padding: 0.625rem 0.75rem; /* Adjusted for responsiveness */
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Styles for input hover state */
+  input:hover {
+    border: 1px solid #adadad;
+  }
+  
+  /* Styles for input focus state */
+  input:focus {
+    border: 1px solid #239ce2;
+  }
+  
+  
